@@ -1,8 +1,8 @@
 applications:
   - name: my-sample-app
-    namespace: argocd
-    project: default
+    namespace: ats-backend-service
+    project: ats
     repoURL: https://github.com/elahe412/argocd-application.git
     targetRevision: main
     path: /aoa-sample/app-af-apps
-    destinationNamespace: sample
+    destinationNamespace: ats-test-service
