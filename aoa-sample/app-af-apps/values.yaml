@@ -1,0 +1,8 @@
+applications:
+  - name: my-sample-app
+    namespace: argocd
+    project: default
+    repoURL: https://github.com/my-org/my-sample-apps.git
+    targetRevision: main
+    path: sample-app
+    destinationNamespace: sample

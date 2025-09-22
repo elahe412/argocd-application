@@ -1,0 +1,4 @@
+apiVersion: v2
+name: sample-app
+description: A sample Helm app managed by App of Apps
+version: 0.1.0

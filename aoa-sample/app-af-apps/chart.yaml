@@ -1,0 +1,4 @@
+apiVersion: v2
+name: app-of-apps
+description: A simple App of Apps Helm chart for ArgoCD
+version: 0.1.0
