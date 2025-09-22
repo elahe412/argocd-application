@@ -2,7 +2,7 @@ applications:
   - name: my-sample-app
     namespace: argocd
     project: default
-    repoURL: https://github.com/my-org/my-sample-apps.git
+    repoURL: https://github.com/elahe412/argocd-application.git
     targetRevision: main
-    path: sample-app
+    path: /aoa-sample/app-af-apps
     destinationNamespace: sample
