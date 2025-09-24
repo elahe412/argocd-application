@@ -11,7 +11,7 @@ applications:
   project: ats
   enabled: true
   source:
-    path: aoa-sample/app-af-apps/my-app
+    path: aoa-sample/my-app
     repoURL: https://github.com/elahe412/argocd-application.git
   syncPolicy:
     syncOptions:
