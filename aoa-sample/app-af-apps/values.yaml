@@ -16,6 +16,3 @@ applications:
   repoURL: https://github.com/elahe412/argocd-application.git
   targetRevision: main
 
-  syncPolicy:
-    syncOptions:
-    - RespectIgnoreDifferences=true
