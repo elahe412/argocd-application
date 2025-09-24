@@ -4,5 +4,5 @@ applications:
     project: ats
     repoURL: https://github.com/elahe412/argocd-application.git
     targetRevision: main
-    path: /aoa-sample/app-af-apps
+    path: /aoa-sample/app-af-apps/my-app
     destinationNamespace: ats-test-service
