@@ -8,11 +8,14 @@
 #     destinationNamespace: ats-test-service
 applications:
 - name: aoa-application
+  namespace: ats-aoa
   project: ats
   enabled: true
-  source:
-    path: aoa-sample/my-app
-    repoURL: https://github.com/elahe412/argocd-application.git
+  destinationNamespace: ats-apps
+  path: aoa-sample/my-app
+  repoURL: https://github.com/elahe412/argocd-application.git
+  targetRevision: main
+
   syncPolicy:
     syncOptions:
     - RespectIgnoreDifferences=true
