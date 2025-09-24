@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: aoa-test-2-ats
+  namespace: ats-aoa
+spec:
+  destination:
+    namespace: ats-apps
+    server: https://kubernetes.default.svc
+  project: ats
+  source:
+    path: aoa-sample/app-af-apps
+    repoURL: https://github.com/elahe412/argocd-application.git
+    targetRevision: HEAD
