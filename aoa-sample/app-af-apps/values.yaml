@@ -1,8 +1,18 @@
+# applications:
+#   - name: my-sample-app
+#     namespace: ats-backend-service
+#     project: ats
+#     repoURL: https://github.com/elahe412/argocd-application.git
+#     targetRevision: main
+#     path: /aoa-sample/app-af-apps/my-app
+#     destinationNamespace: ats-test-service
 applications:
-  - name: my-sample-app
-    namespace: ats-backend-service
-    project: ats
+- name: aoa-application
+  project: ats
+  enabled: true
+  source:
+    path: aoa-sample/app-af-apps/my-app
     repoURL: https://github.com/elahe412/argocd-application.git
-    targetRevision: main
-    path: /aoa-sample/app-af-apps/my-app
-    destinationNamespace: ats-test-service
+  syncPolicy:
+    syncOptions:
+    - RespectIgnoreDifferences=true
