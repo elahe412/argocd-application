@@ -7,7 +7,7 @@
 #     path: /aoa-sample/app-af-apps/my-app
 #     destinationNamespace: ats-test-service
 applications:
-- name: aoa-application
+- name: aoa-application-2
   namespace: ats-aoa
   project: ams
   enabled: true
