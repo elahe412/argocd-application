@@ -9,7 +9,7 @@
 applications:
 - name: aoa-application
   namespace: ats-aoa
-  project: ams
+  project: ats
   enabled: true
   destinationNamespace: ats-apps
   path: aoa-sample/my-app
