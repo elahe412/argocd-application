@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: aoa-test-2-ats
+  name: aoa-test-3-ats
   namespace: ats-aoa
 spec:
   destination:
